@@ -2,30 +2,20 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - prints the last digit of a randomly generated number
+ * Return: 0 upon successful completion
  */
 int main(void)
 {
-int n, r;
+int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-do {
-r = n % 10;
-n = n / 10;
-} while (n != 0);
-if (r > 5)
-{
-printf("Last digit of %d is %d and is greater than 5\n", n, r);
-}
-else if (r == 0)
-{
-printf("Last digit of %d is %d and is 0\n", n, r);
-}
-else if (r < 6 && r != 0) 
-{
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, r);
-}
+printf("Last digit of %d is ", n);
+if (n % 10 > 5)
+printf("%d and is greater than 5\n", n % 10);
+else if (n % 10 == 0)
+printf("%d and is 0\n", n % 10);
+else
+printf("%d and is less than 6 and not 0\n", n % 10);
 return (0);
 }
