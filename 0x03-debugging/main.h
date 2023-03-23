@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 void positive_or_negative(int i);
-void putchar();
+void putchar(char c);
 int largest_number(int a, int b, int c);
 
 #endif /* MAIN_H */
