@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_most_numbers - prints the numbers 01356789 ,followed by a new line
- * Return: Always 0
+ * Return:void
  */
 void print_most_numbers(void)
 {
