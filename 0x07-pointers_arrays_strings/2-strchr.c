@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _strchr - function returns a pointer
+ * _strchr - Entry point
  * @s: the string
  * @c: the character
  * Return : Always 0
