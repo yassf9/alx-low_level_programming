@@ -2,6 +2,7 @@
 /**
  * is_prime_number - checks if a number is prime
  * @n: the number to check
+ * @i: the current divisor to try
  * Return: 1 if the number is prime, otherwise 0
  */
 int is_prime_helper(int n, int i);
