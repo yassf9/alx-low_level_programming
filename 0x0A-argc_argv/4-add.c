@@ -10,10 +10,12 @@
 int main(int argc, char *argv[])
 {
 	int sum;
+	char *c;
 
-	while (argc--)
+	while (--argc)
 	{
-		if (isdigit(argv[argc]))
+		for ( c = argv[argc] ;* c; c++)
+		if (isdigit(*c))
 			sum += atoi(argv[argc]);
 		else
 		{
