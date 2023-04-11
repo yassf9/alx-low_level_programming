@@ -28,6 +28,6 @@ char *str_concat(char *s1, char *s2)
 		for (i = len1; i < len2 + len1; i++)
 		str[i] = s2[i];
 	}
-	str[len2] = '\0';
+	str[i] = '\0';
 	return (str);
 }
