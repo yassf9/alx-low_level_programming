@@ -7,9 +7,5 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	_putchar('N');
-	_putchar('a');
-	_putchar('m');
-	_putchar('e');
 	f(name);
 }
