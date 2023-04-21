@@ -2,11 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-typedef struct print_fn
-{
-char type;
-void (*fn)(va_list);
-} print_fn_t;
 /**
  * print_c - Prints a char
  * @args: The list of arguments
