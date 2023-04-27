@@ -4,7 +4,7 @@
 #include <string.h>
 /**
  * add_node -  adds a new node at the beginning of a list_t list.
- * @head: pointer to a poiter to list_t
+ * @head: pointer to a pointer to list_t
  * @str: string
  * Return: the address of the new element, NULL if it failed
  */
