@@ -6,7 +6,7 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	unsigned long int elm = 0;
+	size_t elm = 0;
 	const listint_t *p = h;
 
 	if(h == NULL)
