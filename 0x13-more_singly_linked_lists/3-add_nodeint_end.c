@@ -10,11 +10,11 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	listint_t *new, *p;
 
 	new = malloc(sizeof(struct listint_s));
-        if (new == NULL)
-                return (NULL);
+	if (new == NULL)
+		return (NULL);
 
-        new->n = n;
-        new->next = NULL;
+	new->n = n;
+	new->next = NULL;
 
 	p = *head;
 	if (p == NULL)
