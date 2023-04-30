@@ -11,6 +11,8 @@ size_t print_listint(const listint_t *h)
 	unsigned long int elm = 0;
 	const listint_t *p = h;
 
+	if(h == NULL)
+		return (0);
 	while (p != NULL)
 	{
 		elm++;
